@@ -88,6 +88,8 @@ defaults:
     values:
       layout: post
       share: true
+      toc: true
+      toc_sticky: true
 
 # Site Author
 author: Kyungmi Noh
