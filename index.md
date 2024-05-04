@@ -1,6 +1,8 @@
 ---
 layout: home
-limit: 10
+excerpt: "공부해라"
+limit: 2
 show_excerpts: true
+paginate: true
 entries_layout: list
 ---
