@@ -1,0 +1,11 @@
+<div id="entry-table-of-contents" class="toc-wrapper">
+<h2 id="toc-toggle">
+  {% if site.data.text[site.locale].table_of_contents %}
+      {{ site.data.text[site.locale].table_of_contents }}
+    {% else %}
+      Contents
+    {% endif %}  
+  <i class="toc-toggle-icon fas fa-chevron-down"></i>
+</h2>
+{:toc}
+</div>

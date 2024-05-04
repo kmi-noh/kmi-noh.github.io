@@ -19,11 +19,13 @@ layout: default
         {% include page-author.html %}
         {% include page-categories.html %}
         {% include page-tags.html %}
+        {% include toc.html html=content %}
+
       </div>
 
       <div class="page-content">
         <div class="e-content">
-          {{ content | toc-wrapper }}
+          {{ content }}
         </div>
 
         {% if page.share %}
