@@ -1,6 +1,11 @@
 ---
 share: true
+category: good
+tags:
+  - "#test"
+  - "#new"
+title: "{{date}}-{{title}}"
 ---
-f
-hello!
+
+hello!
 숨겨졌니.. properties..
