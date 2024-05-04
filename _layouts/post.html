@@ -23,7 +23,8 @@ layout: default
 
       <div class="page-content">
         <div class="e-content">
-          {{ content | toc }}
+          {% include toc.html %}
+          {{ content | table_of_contents }}
         </div>
 
         {% if page.share %}
