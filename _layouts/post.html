@@ -14,13 +14,14 @@ layout: default
           <h1 id="page-title" class="page-title p-name">{{ title }}</h1>
         {% endif %}
       </header>
+      
       <article class="post-article">
         <div class="toc">
           <a href="#">&lt;맨 위로&gt;</a>
           {% include toc.html html=content %}
         </div>
-    {{ content }}
-  </article>
+      </article>
+      
       <div class="page-sidebar">
         {% include page-author.html %}
         {% include page-categories.html %}
