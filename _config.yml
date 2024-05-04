@@ -89,7 +89,7 @@ defaults:
     values:
       layout: post
       share: true
-      toc: true
+      toc: false
       toc_sticky: false
 
 # Site Author
