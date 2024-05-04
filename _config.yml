@@ -91,12 +91,10 @@ defaults:
 
 # Site Author
 author: Kyungmi Noh
-  - name: Kyungmi
-    picture:
-    email: nkyungmi16@gmail.com
-    twitter:
-    links:
-    - title:
+name: Kyungmi
+email: nkyungmi16@gmail.com
+
+
       url:
       icon:
 
