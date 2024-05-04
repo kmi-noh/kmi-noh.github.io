@@ -78,7 +78,7 @@ plugins:
   - jekyll-sitemap
   # - jekyll-feed
   - jekyll-paginate
-  - jekyll-toc
+  # - jekyll-toc
 
 # Front Matter Defaults
 defaults:
@@ -89,8 +89,8 @@ defaults:
     values:
       layout: post
       share: true
-      toc: true
-      toc_sticky: true
+      toc: false
+      toc_sticky: false
 
 # Site Author
 author: Kyungmi Noh
