@@ -22,11 +22,9 @@ layout: default
       </div>
 
       <div class="page-content">
-        <div class="e-content">
+        <div class="e-content" itemprop="articleBody">
           {{ content }}  
         </div>
-
-        <div class="post-content e-content" itemprop="articleBody">{{ content }}</div>
 
         {% include comments.html %}
 
